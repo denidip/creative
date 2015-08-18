@@ -15,13 +15,8 @@ html, body {
     height: 100%;
     background-image: url("../img/galiardi_top_bg.jpg");
     background-position: center top;
-    background-size: 100% 100%;
     background-repeat: no-repeat;
-}
-@supports ( background-size: cover ) {
-    #top {
-        background-size: cover;
-    }
+    background-size: cover;
 }
 .filter {
     width: 100%;
@@ -43,7 +38,6 @@ html, body {
 }
 .wrap > .content > #text {
     width: 100%;
-    height: 60%;
     font-weight: 100;
     padding-top: 50px;
     cursor: default;
@@ -84,6 +78,7 @@ html, body {
     font-weight: 300;
     line-height: 12px;
     padding: 14px 50px;
+    margin-top: 100px;
     background-color: rgba(0,156,237,0);
     border: solid 1px rgba(0,156,237,1);
     color: rgba(255,255,255,1);
